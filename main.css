@@ -1,0 +1,127 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section
+{
+    position: relative;
+    min-height: 100vh;
+    background-image: url("images/landingpage.jpg");
+    background-repeat: no-repeat;
+}
+
+.container
+{
+    margin: 0 14%;
+}
+
+.promotext
+{
+    padding-top: 14%;
+    color: #ddedff;
+    text-shadow: 1px 1px 11px #022e77;
+}
+
+.promotext h3
+{
+    font-size: 6.5rem;
+    line-height: 1;
+}
+
+.promotext p
+{
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin-top: 40px;
+}
+
+.login
+{
+    position: absolute;
+    padding: 50px 80px;
+    text-align: center;
+    box-shadow: 3px 6px 30px 8px rgb(58 58 58 / 15%);
+    background: rgb(0, 52, 134 / 50%);
+    left: 60%;
+    right: 15%;
+    bottom: 20%;
+    height: 60%;
+    border: 1px solid;
+    border-top-color: #56aaff;
+    border-left-color: #56aaff;
+    border-bottom-color: #56aaff;
+    border-right-color: #56aaff;
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+}
+
+.login h4
+{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #d7f52b;
+}
+
+.login p
+{
+    font-size: 20px;
+    color: #d7f52b;
+    margin-bottom: 90px;
+}
+
+.inputbox
+{
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.inputbox input, 
+.inputbox textarea
+{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #eff9ff;
+    border: none;
+    border-bottom: 1px solid #abe0ff;
+    background-color: transparent;
+    padding: 4px 3px;
+    outline: none;
+}
+
+.inputbox span
+{
+    position: absolute;
+    left: 2px;
+    bottom: 40px;
+    letter-spacing: 1px;
+    color: #eff9ff;
+}
+
+.button
+{
+    position: relative;
+    cursor: pointer;
+    background: #c0dc20;
+    color: #022e79;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    box-shadow: 0 3px 8px 2px rgb(60 60 60 / 30%);
+    margin-top: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover
+{
+    background-color: #cfee21;
+    box-shadow: 0 3px 8px 2px rgb(99 99 99 / 30%);
+    transition: all 0.2s ease-in-out;
+}
